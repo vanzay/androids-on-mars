@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#c0000000"
+    android:gravity="center"
+    android:layoutAnimation="@anim/menu_show"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/sound_menu_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sound_on"
+        android:textColor="@color/menu_text_color"
+        android:textSize="28.0sp" />
+
+    <TextView
+        android:id="@+id/move_animation_menu_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fast_steps_off"
+        android:textColor="@color/menu_text_color"
+        android:textSize="28.0sp" />
+
+    <TextView
+        android:id="@+id/quit_menu_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/quit_game"
+        android:textColor="@color/menu_text_color"
+        android:textSize="28.0sp" />
+</LinearLayout>

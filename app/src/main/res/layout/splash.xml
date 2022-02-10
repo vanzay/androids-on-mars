@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/splash_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|top"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/splash" />
+
+    <ImageView
+        android:id="@+id/splash_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|top"
+        android:layout_marginStart="21px"
+        android:layout_marginTop="26px"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/splash_title" />
+
+    <ImageView
+        android:id="@+id/splash_androids"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|top"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="162px"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/splash_androids" />
+</merge>

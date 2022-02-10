@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/splash_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|top"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/splash" />
+
+    <ImageView
+        android:id="@+id/splash_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|top"
+        android:layout_marginStart="21px"
+        android:layout_marginTop="26px"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/splash_title" />
+
+    <LinearLayout
+        android:id="@+id/main_menu_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|top"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="235dp"
+        android:layoutAnimation="@anim/menu_show"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/play_menu_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/play"
+            android:textColor="@color/menu_text_color"
+            android:textSize="28.0sp" />
+
+        <TextView
+            android:id="@+id/settings_menu_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settings"
+            android:textColor="@color/menu_text_color"
+            android:textSize="28.0sp" />
+
+        <TextView
+            android:id="@+id/scores_menu_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/scores"
+            android:textColor="@color/menu_text_color"
+            android:textSize="28.0sp" />
+
+        <TextView
+            android:id="@+id/help_menu_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/help"
+            android:textColor="@color/menu_text_color"
+            android:textSize="28.0sp" />
+
+        <TextView
+            android:id="@+id/quit_menu_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quit"
+            android:textColor="@color/menu_text_color"
+            android:textSize="28.0sp" />
+    </LinearLayout>
+</merge>

@@ -1,0 +1,111 @@
+package com.vanzay.aom.images;
+
+public interface Images {
+
+    int ID_MENU_PRESSED = 0;
+    int ID_ANDROID_BLUE_BACK = 1;
+    int ID_ANDROID_BLUE_FRONT = 2;
+    int ID_LAMPS_OFF = 3;
+    int ID_ANDROID_BLUE_LEFT = 4;
+    int ID_ANDROID_BLUE_RIGHT = 5;
+    int ID_ANDROID_GREEN_BACK = 6;
+    int ID_ANDROID_GREEN_FRONT = 7;
+    int ID_ANDROID_GREEN_LEFT = 8;
+    int ID_ANDROID_GREEN_RIGHT = 9;
+    int ID_ANDROID_GREY_BACK = 10;
+    int ID_ANDROID_GREY_FRONT = 11;
+    int ID_ANDROID_GREY_LEFT = 12;
+    int ID_ANDROID_GREY_RIGHT = 13;
+    int ID_ANDROID_MULTICOLOR_BACK_1 = 14;
+    int ID_ANDROID_MULTICOLOR_BACK_2 = 15;
+    int ID_ANDROID_MULTICOLOR_BACK_3 = 16;
+    int ID_ANDROID_MULTICOLOR_BACK_4 = 17;
+    int ID_ANDROID_MULTICOLOR_BACK_5 = 18;
+    int ID_ANDROID_MULTICOLOR_BACK_6 = 19;
+    int ID_ANDROID_MULTICOLOR_BACK_7 = 20;
+    int ID_ANDROID_MULTICOLOR_BACK_8 = 21;
+    int ID_ANDROID_MULTICOLOR_FRONT_1 = 22;
+    int ID_ANDROID_MULTICOLOR_FRONT_2 = 23;
+    int ID_ANDROID_MULTICOLOR_FRONT_3 = 24;
+    int ID_ANDROID_MULTICOLOR_FRONT_4 = 25;
+    int ID_ANDROID_MULTICOLOR_FRONT_5 = 26;
+    int ID_ANDROID_MULTICOLOR_FRONT_6 = 27;
+    int ID_ANDROID_MULTICOLOR_FRONT_7 = 28;
+    int ID_ANDROID_MULTICOLOR_FRONT_8 = 29;
+    int ID_ANDROID_MULTICOLOR_LEFT_1 = 30;
+    int ID_ANDROID_MULTICOLOR_LEFT_2 = 31;
+    int ID_ANDROID_MULTICOLOR_LEFT_3 = 32;
+    int ID_ANDROID_MULTICOLOR_LEFT_4 = 33;
+    int ID_ANDROID_MULTICOLOR_LEFT_5 = 34;
+    int ID_ANDROID_MULTICOLOR_LEFT_6 = 35;
+    int ID_ANDROID_MULTICOLOR_LEFT_7 = 36;
+    int ID_ANDROID_MULTICOLOR_LEFT_8 = 37;
+    int ID_ANDROID_MULTICOLOR_RIGHT_1 = 38;
+    int ID_ANDROID_MULTICOLOR_RIGHT_2 = 39;
+    int ID_ANDROID_MULTICOLOR_RIGHT_3 = 40;
+    int ID_ANDROID_MULTICOLOR_RIGHT_4 = 41;
+    int ID_ANDROID_MULTICOLOR_RIGHT_5 = 42;
+    int ID_ANDROID_MULTICOLOR_RIGHT_6 = 43;
+    int ID_ANDROID_MULTICOLOR_RIGHT_7 = 44;
+    int ID_ANDROID_MULTICOLOR_RIGHT_8 = 45;
+    int ID_ANDROID_RED_BACK = 46;
+    int ID_ANDROID_RED_FRONT = 47;
+    int ID_ANDROID_RED_LEFT = 48;
+    int ID_ANDROID_RED_RIGHT = 49;
+    int ID_ANDROID_PINK_BACK = 50;
+    int ID_ANDROID_PINK_FRONT = 51;
+    int ID_ANDROID_PINK_LEFT = 52;
+    int ID_ANDROID_PINK_RIGHT = 53;
+    int ID_ANDROID_YELLOW_BACK = 54;
+    int ID_ANDROID_YELLOW_FRONT = 55;
+    int ID_ANDROID_YELLOW_LEFT = 56;
+    int ID_ANDROID_YELLOW_RIGHT = 57;
+    int ID_TILE_1 = 58;
+    int ID_TILE_2 = 59;
+    int ID_TILE_3 = 60;
+    int ID_TILE_4 = 61;
+    int ID_TILE_5 = 62;
+    int ID_TILE_6 = 63;
+    int ID_TILE_HL = 64;
+    int ID_SHADOW_LEFT = 65;
+    int ID_SHADOW_RIGHT = 66;
+    int ID_SHADOW_FRONT = 67;
+    int ID_NUMBER_0 = 68;
+    int ID_NUMBER_1 = 69;
+    int ID_NUMBER_2 = 70;
+    int ID_NUMBER_3 = 71;
+    int ID_NUMBER_4 = 72;
+    int ID_NUMBER_5 = 73;
+    int ID_NUMBER_6 = 74;
+    int ID_NUMBER_7 = 75;
+    int ID_NUMBER_8 = 76;
+    int ID_NUMBER_9 = 77;
+    int ID_SIGNAL_01 = 78;
+    int ID_SIGNAL_02 = 79;
+    int ID_SIGNAL_03 = 80;
+    int ID_SIGNAL_04 = 81;
+    int ID_SIGNAL_05 = 82;
+    int ID_JET_01 = 83;
+    int ID_JET_02 = 84;
+    int ID_JET_03 = 85;
+    int ID_JET_04 = 86;
+    int ID_JET_05 = 87;
+    int ID_EYES_BLUE = 88;
+    int ID_EYES_GREEN = 89;
+    int ID_EYES_GREY = 90;
+    int ID_EYES_MULTICOLOR = 91;
+    int ID_EYES_RED = 92;
+    int ID_EYES_PINK = 93;
+    int ID_EYES_YELLOW = 94;
+
+    int[] TILES = {
+            Images.ID_TILE_1, Images.ID_TILE_2, Images.ID_TILE_3,
+            Images.ID_TILE_4, Images.ID_TILE_5, Images.ID_TILE_6
+    };
+
+    int[] NUMBERS = {
+            Images.ID_NUMBER_0, Images.ID_NUMBER_1, Images.ID_NUMBER_2, Images.ID_NUMBER_3,
+            Images.ID_NUMBER_4, Images.ID_NUMBER_5, Images.ID_NUMBER_6, Images.ID_NUMBER_7,
+            Images.ID_NUMBER_8, Images.ID_NUMBER_9
+    };
+}

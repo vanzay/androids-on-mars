@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Androids on Mars</string>
+
+    <string name="play">Play</string>
+    <string name="settings">Settings</string>
+    <string name="scores">Scores</string>
+    <string name="help">Help</string>
+    <string name="quit">Quit</string>
+
+    <string name="sound_on">Sound: on</string>
+    <string name="sound_off">Sound: off</string>
+    <string name="fast_steps_on">Fast steps: on</string>
+    <string name="fast_steps_off">Fast steps: off</string>
+
+    <string name="help_text">
+		\t\"Red Planet\" was a focus of human interest since long time ago. Starting with the middle of the 20th century a lot of Martian missions were sent from the Earth. During the landings to Mars it was found out that the planet was inhabited by the friendly androids whose stay on Mars had exclusively investigational character.\n
+		\tAndroids in grey uniform study the planet\'s atmosphere, androids in red study the soil, androids in blue look for water, androids in green look for life forms and androids in yellow create a detailed 3D map of the planet. To achieve success they have to get together into groups of five androids at least. Besides, on Mars there exist androids in multicolor uniform. They are senior researchers and they can participate in any research team. Also, from time to time, the planet is visited by the observers (female persons in pink) – they can\'t participate in any researches but they leave the planet after they are sure that everything is well.\n
+		\tYou have a fascinating task – to help the androids in their uneasy but very useful work :)
+	</string>
+
+    <string name="quit_game">Finish game</string>
+    <string name="great">G R E A T</string>
+    <string name="game_over">Game over</string>
+</resources>
